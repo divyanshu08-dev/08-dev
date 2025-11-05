@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#96E2D9;
+   display: flex;
+    justify-content: center;
+}
+    h1{
+        margin-top: 120px;
+        align-items: center;
+       justify-content: center;
+       height: fit-content;
+       margin-right: 48px;
+      background-color: rgb(208, 10, 10);
+       width: 250px;
+       padding: 10px;
+       
+       font-size: 40px;
+       font-style: italic;
+      border-radius: 5px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+#container{
+    height: 60vh;
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttons{
+    height: 50vmin;
+    width: 52vmin;
+   ;
+    gap: 11px;
+     flex-wrap: wrap;
+    display: flex;
+    
+    align-items: center;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: #011627;
+   border-radius: 10px;
+   border: none;
+   font-size: 60px;
+   cursor: pointer;
+    color:#2EC4B6 ;
+   
+    animation-delay: ;
+}
+
+
+#new {
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: rgb(12, 12, 49);
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    margin-right: 0px;
+    
+}
+.hide{
+    display: none;
+}
+
+
+#msg {
+    font-size: 30px;
+    position: fixed;
+   display: flex;
+   text-align: center;
+   align-items: center;
+   margin: right 40px;;
+   margin-top: 20px;
+   background-color: #FF9F1C;
+   padding: 10px;
+    border-radius: 10px;
+}
+   
+#reset {
+    height: 40px;
+    width: 100px;
+    margin-top: 20px;
+    background-color: rgb(12, 12, 49);
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+ 
+#reset:hover {
+    background-color: rgb(25, 115, 129);
+}
+
+#new:hover {
+    background-color: rgb(25, 115, 129); 
+}
+#btn{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 40px;
+}
+
+.box:hover {
+    background-color: #2EC4B6;
+    color: #011627;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+#aoudio{
+    s
+    
+}
